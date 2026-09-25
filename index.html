@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio professionnel ADJATO Enagnon Victorin - Développeur | Designer | Entrepreneur">
+    <title>ADJATO Enagnon Victorin - Portfolio 2026</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Fond animé décoratif -->
+    <div class="animated-background" aria-hidden="true">
+        <div class="bg-grid"></div>
+        <div class="bg-orb bg-orb-one"></div>
+        <div class="bg-orb bg-orb-two"></div>
+        <div class="bg-orb bg-orb-three"></div>
+        <canvas id="particlesCanvas"></canvas>
+        <div class="cursor-glow"></div>
+    </div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="brand-icon">👨‍💻</span>
+                <span class="brand-text">AEV</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Accueil</a></li>
+                <li><a href="#about" class="nav-link">À Propos</a></li>
+                <li><a href="#skills" class="nav-link">Compétences</a></li>
+                <li><a href="#projects" class="nav-link">Projets</a></li>
+                <li><a href="#hobbies" class="nav-link">Passions</a></li>
+                <li><a href="#education" class="nav-link">Parcours</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Accueil -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-wrapper">
+                <div class="hero-content">
+                    <div class="greeting-badge">👋 Bienvenue sur mon univers</div>
+                    <h1 class="hero-title">
+                        <span class="gradient-text">ADJATO</span>
+                        <span class="gradient-text gradient-2">Enagnon Victorin</span>
+                    </h1>
+                    <p class="hero-subtitle">Développeur Web × Créateur d'Apps × Designer × Innovateur</p>
+                    <p class="hero-description">
+                        Étudiant en Mathématiques & Informatique Appliquée | Créateur de solutions numériques | Basé au 🇧🇯 Bénin
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#projects" class="btn btn-primary glow-on-hover">
+                            <span>Voir mes réalisations</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary glow-on-hover">
+                            <span>Me contacter</span>
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="floating-card card-1">
+                        <i class="fas fa-code"></i>
+                        <p>Web</p>
+                    </div>
+                    <div class="floating-card card-2">
+                        <i class="fas fa-mobile-alt"></i>
+                        <p>Mobile</p>
+                    </div>
+                    <div class="floating-card card-3">
+                        <i class="fas fa-palette"></i>
+                        <p>Design</p>
+                    </div>
+                    <div class="floating-card card-4">
+                        <i class="fas fa-car"></i>
+                        <p>Auto</p>
+                    </div>
+                    <div class="profile-circle">
+                        <div class="circle-border"></div>
+                        <img src="images/gemini-2.5-flash-image_Professional_portrait_man_in_elegant_business_suit_in_modern_office_highly_reali-0.jpg" alt="Portrait professionnel de Victorin" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- À Propos -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">À Propos de Moi</h2>
+            <div class="about-content">
+                <div class="profile-photo reveal-up">
+                    <div class="photo-frame">
+                        <img src="images/gemini-2.5-flash-image_Professional_portrait_man_in_elegant_business_suit_in_modern_office_highly_reali-0.jpg" alt="Portrait d'ADJATO Enagnon Victorin" />
+                        <div class="photo-badge">
+                            <i class="fas fa-briefcase"></i>
+                            <span>Disponible</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text about-card reveal-up">
+                    <p>Je suis <strong>ADJATO Enagnon Victorin</strong>, un créateur passionné de solutions numériques basé au Bénin. Actuellement en deuxième année d'études en Mathématique et Informatique Appliquée à la FAST, j'associe mes compétences techniques à ma créativité pour développer des projets innovants.</p>
+                    
+                    <p>Mes domaines d'expertise incluent la <strong>création de sites web modernes</strong>, le <strong>design graphique</strong> et le <strong>développement d'applications mobiles</strong>. Je suis également passionné par la <strong>fabrication automobile</strong>, ce qui me permet de combiner l'ingénierie et la créativité.</p>
+                    
+                    <h3>Qualités Personnelles</h3>
+                    <div class="qualities">
+                        <div class="quality-badge">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Rigoureux</span>
+                        </div>
+                        <div class="quality-badge">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Travailleur</span>
+                        </div>
+                        <div class="quality-badge">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Honnête</span>
+                        </div>
+                        <div class="quality-badge">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Créatif</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compétences -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Mes Compétences</h2>
+            <div class="skills-wrapper">
+                <div class="skill-category">
+                    <h3>Développement Web</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-react"></i>
+                            <span>React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Design & Créativité</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-palette"></i>
+                            <span>Design Graphique</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-pencil-ruler"></i>
+                            <span>UI/UX Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>App Mobile</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-tools"></i>
+                            <span>Responsive Design</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="project-cta reveal-up">
+                <div class="project-cta-content">
+                    <span class="cta-kicker"><i class="fas fa-sparkles"></i> Votre idée mérite d'exister</span>
+                    <h3>Un projet numérique en tête ? Construisons-le ensemble.</h3>
+                    <p>Site web, application mobile ou identité visuelle : décrivez votre besoin et recevez une première orientation personnalisée.</p>
+                </div>
+                <div class="project-cta-actions">
+                    <a href="#contact" class="btn btn-primary glow-on-hover">
+                        <span>Commander mon projet</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="mailto:adjatoenagnonvictorin@gmail.com?subject=Demande%20de%20projet%20informatique" class="btn btn-secondary">
+                        <span>Demander un devis</span>
+                        <i class="fas fa-file-invoice-dollar"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projets -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Mes Projets</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    <div class="project-info">
+                        <h3>Création de Sites Web</h3>
+                        <p>Développement de sites web modernes, responsifs et performants. Spécialisé en HTML5, CSS3 et JavaScript avec focus sur l'expérience utilisateur.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Responsive</span>
+                        </div>
+                        <a href="#contact" class="btn btn-small">Parler du projet</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                    <div class="project-info">
+                        <h3>Design Graphique & UI/UX</h3>
+                        <p>Création de designs élégants et intuitifs pour web et mobile. Maîtrise des principes de design moderne et des outils de création.</p>
+                        <div class="project-tags">
+                            <span class="tag">Design</span>
+                            <span class="tag">UI/UX</span>
+                            <span class="tag">Créativité</span>
+                            <span class="tag">Web Design</span>
+                        </div>
+                        <a href="#contact" class="btn btn-small">Parler du projet</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                    <div class="project-info">
+                        <h3>Applications Mobiles</h3>
+                        <p>Développement d'applications mobiles innovantes avec une interface utilisateur intuitive et performante.</p>
+                        <div class="project-tags">
+                            <span class="tag">Mobile App</span>
+                            <span class="tag">React Native</span>
+                            <span class="tag">iOS/Android</span>
+                        </div>
+                        <a href="#contact" class="btn btn-small">Parler du projet</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);"></div>
+                    <div class="project-info">
+                        <h3>Passion : Fabrication Automobile</h3>
+                        <p>Passion pour l'ingénierie et la fabrication automobile. Intérêt particulier pour l'innovation automobile et la conception mécanique.</p>
+                        <div class="project-tags">
+                            <span class="tag">Automobile</span>
+                            <span class="tag">Ingénierie</span>
+                            <span class="tag">Mécanique</span>
+                        </div>
+                        <a href="#contact" class="btn btn-small">Échanger sur l'idée</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Passions & Loisirs -->
+    <section id="hobbies" class="hobbies">
+        <div class="container">
+            <h2 class="section-title">Mes Passions & Loisirs</h2>
+            <div class="hobbies-grid">
+                <div class="hobby-card">
+                    <div class="hobby-icon">🚗</div>
+                    <h3>Fabrication Automobile</h3>
+                    <p>Passionné par l'ingénierie automobile et l'innovation mécanique. J'aime comprendre comment les choses fonctionnent et les améliorer.</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon">🎮</div>
+                    <h3>Gaming</h3>
+                    <p>Gamer passionné qui apprécie développer des jeux et créer des expériences immersives.</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon">📱</div>
+                    <h3>Technologie</h3>
+                    <p>Toujours à la recherche des dernières innovations technologiques et tendances du secteur numérique.</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon">🎨</div>
+                    <h3>Créativité</h3>
+                    <p>J'aime concevoir et créer des interfaces visuellement impressionnantes et fonctionnelles.</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon">📚</div>
+                    <h3>Apprentissage</h3>
+                    <p>Apprendre continuellement de nouvelles technologies et compétences pour rester à jour.</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon">🌐</div>
+                    <h3>Entrepreneuriat</h3>
+                    <p>Intéressé par créer mon propre projet et lancer ma propre startup technologique.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Éducation -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Mon Parcours Éducatif</h2>
+            <div class="education-timeline">
+                <div class="education-item">
+                    <div class="education-marker">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Études Supérieures</h3>
+                        <p class="education-school">FAST - Université d'Abomey-Calavi</p>
+                        <p class="education-program">Licence en Mathématiques et Informatique Appliquée</p>
+                        <p class="education-year">Actuellement en 2ème année (2026 - 2027)</p>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-marker">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Baccalauréat</h3>
+                        <p class="education-school">Série C - Mathématiques Principales</p>
+                        <p class="education-program">Formation générale complète</p>
+                        <p class="education-year">2024</p>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-marker">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>BEPC</h3>
+                        <p class="education-school">Brevet d'Études du Premier Cycle</p>
+                        <p class="education-program">Cycle d'observation complété</p>
+                        <p class="education-year">2021</p>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-marker">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Certificat d'Études Primaires</h3>
+                        <p class="education-school">Fin d'études primaires</p>
+                        <p class="education-program">Formation primaire réussie</p>
+                        <p class="education-year">2017</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Restons en Contact 💬</h2>
+            <p class="contact-subtitle">Parlez-moi de votre idée : je vous répondrai avec une première orientation claire.</p>
+            <div class="contact-steps reveal-up">
+                <div class="contact-step">
+                    <span>01</span>
+                    <div><strong>Expliquez votre besoin</strong><small>Votre idée, vos objectifs et vos contraintes.</small></div>
+                </div>
+                <div class="contact-step">
+                    <span>02</span>
+                    <div><strong>Recevez une orientation</strong><small>Une première proposition adaptée à votre projet.</small></div>
+                </div>
+                <div class="contact-step">
+                    <span>03</span>
+                    <div><strong>Donnez vie au projet</strong><small>Nous avançons étape par étape, avec clarté.</small></div>
+                </div>
+            </div>
+            <div class="contact-content">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" name="nom" placeholder="Votre nom" required>
+                        <span class="form-line"></span>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Votre email" required>
+                        <span class="form-line"></span>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Votre message..." rows="5" required></textarea>
+                        <span class="form-line"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary glow-on-hover">
+                        <span>Envoyer le message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+                <div class="contact-info">
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <p class="contact-label">Email</p>
+                        <p>adjatoenagnonvictorin@gmail.com</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <p class="contact-label">Téléphone</p>
+                        <p>+229 01 47 68 31 16</p>
+                        <p>+229 01 42 10 57 40</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p class="contact-label">Localisation</p>
+                        <p>Bénin 🇧🇯</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-graduation-cap"></i>
+                        <p class="contact-label">Études</p>
+                        <p>2ème année - FAST</p>
+                    </div>
+                    
+                    <div class="social-section">
+                        <h3>Me Suivre sur les Réseaux 📱</h3>
+                        <div class="social-links-grid">
+                            <a href="https://www.facebook.com/profile.php?id=61579404715462" class="social-link fb-color" title="Facebook" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-facebook-f"></i>
+                                <span>Facebook</span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/enagnon-victorin-adjato-468687392" class="social-link li-color" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-linkedin-in"></i>
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="https://www.instagram.com/victorinadjato/" class="social-link ig-color" title="Instagram" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-instagram"></i>
+                                <span>Instagram</span>
+                            </a>
+                            <a href="https://github.com/ADJATO230" class="social-link gh-color" title="GitHub" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-github"></i>
+                                <span>GitHub</span>
+                            </a>
+                            <a href="https://www.youtube.com/@EnagnonVictorinADJATO-b4l" class="social-link yt-color" title="YouTube" target="_blank" rel="noopener noreferrer">
+                                <i class="fab fa-youtube"></i>
+                                <span>YouTube</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 ADJATO Enagnon Victorin. Tous droits réservés. | Portfolio Web</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
